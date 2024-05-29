@@ -1,1 +1,2 @@
-TOKEN = T_KEN
+import os
+TOKEN = os.environ.get("T_KEN")
